@@ -53,7 +53,7 @@ function convertRoots(rootsJSON) {
 
 // Main function
 function main() {
-    const data = JSON.parse(fs.readFileSync('roots1.json', 'utf8'));
+    const data = JSON.parse(fs.readFileSync('roots.json', 'utf8'));
 
     const { n, k } = data.keys;
     const roots = convertRoots(data);
